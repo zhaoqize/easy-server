@@ -1,9 +1,9 @@
 {
-  "name": "easy-server",
+  "name": "easy-servers",
   "version": "1.0.0",
   "description": "A Local Sever Util",
   "main": "index.js",
-  "author": "qize",
+  "author": "zhaoqize",
   "keywords": [
     "easy",
     "generator",

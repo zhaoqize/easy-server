@@ -6,7 +6,7 @@ easy-server
 # 使用
 安装
 ```js
-npm install easy-server -g
+npm install easy-servers -g
 ```
 
 使用
