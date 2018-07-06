@@ -1,7 +1,7 @@
 {
   "name": "easy-server",
   "version": "1.0.0",
-  "description": "a local sever",
+  "description": "A Local Sever Util",
   "main": "index.js",
   "author": "qize",
   "keywords": [

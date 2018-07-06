@@ -6,12 +6,12 @@ easy-server
 # 使用
 安装
 ```js
-npm install easy-server
+npm install easy-server -g
 ```
 
 使用
 ```js
-easy server
+easy server [指定文件夹]
 ```
 
 执行 `easy -h`
