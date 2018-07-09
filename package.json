@@ -1,6 +1,6 @@
 {
   "name": "easy-servers",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Local Sever Util",
   "main": "index.js",
   "author": "zhaoqize",

@@ -1,4 +1,5 @@
-[![NPM version][npm-image]][npm-url] [![GitHub license](https://img.shields.io/github/license/zhaoqize/easy-server.svg)](https://github.com/zhaoqize/easy-rollback/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/easy-servers.svg?style=flat)](https://github.com/zhaoqize/easy-server)
+[![GitHub license](https://img.shields.io/github/license/zhaoqize/easy-server.svg)](https://github.com/zhaoqize/easy-rollback/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 # easy-server
 easy-server
