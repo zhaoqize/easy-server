@@ -4,30 +4,32 @@
 # easy-server
 easy-server
 
-# 使用
-安装
+### 安装
 ```js
-npm install easy-servers -g
+npm install -g easy-servers
 ```
 
-使用
+### 执行 
+`easy server -h`
 ```js
-easy server [指定文件夹]
-```
+  Usage: server [options] <dir>
 
-执行 `easy -h`
-```js
-  Usage: easy [options] [command]
+  A Fast Local Server
 
   Options:
 
-    -h, --help  output usage information
-
-  Commands:
-
+    -p, --port <number>  select port to use, default: PORT env var or 8080
+    -i, --ignore <path>  paths to ignore, default: node_modules
+    -f, --file <path>    file entry , default: all
+    -h, --help           output usage information
 ```
 
-效果
+### 使用
+```js
+easy server <dir> -p 8081 -i .gitignore -f index.html
+```
+
+### 效果
 ```shell
 Serving ./ at:
 http://127.0.0.1:8080
