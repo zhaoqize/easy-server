@@ -19,7 +19,7 @@ npm install -g easy-servers
   Options:
 
     -p, --port <number>  select port to use, default: PORT env var or 8080
-    -i, --ignore <path>  paths to ignore, default: node_modules
+    -i, --ignore <path>  paths to ignore, default: node_modules, .git, .gitignore, package.json
     -f, --file <path>    file entry , default: all
     -h, --help           output usage information
 ```
