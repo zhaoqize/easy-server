@@ -1,6 +1,6 @@
 {
   "name": "easy-servers",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "A Fast Local Server",
   "main": "index.js",
   "author": "zhaoqize",
@@ -29,5 +29,9 @@
     "serve-index": "^1.9.1",
     "signale": "^1.0.1",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "livereload-js": "^2.3.0",
+    "socket.io": "^2.1.1"
   }
 }

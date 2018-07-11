@@ -68,5 +68,14 @@
       {files}
     </div>
   </body>
-  <script src="./lib/livereload.js?host=localhost"></script>
+  <script type="text/javascript" src="./lib/socket.io.js"></script>
+  <script type="text/javascript">
+      var socket = io.connect('localhost:3000');//与服务器进行连接
+      //接收来自服务端的信息事件c_hi
+      socket.on('reload', () => {
+        console.log('重刷页面');
+        window.location.reload();
+      })
+
+  </script>
 </html>
