@@ -7,6 +7,7 @@
 | [opn]() | 终端打开浏览器 |
 
 #### 基本参数
+
 - host
 - 端口号
 - 指定的目录地址
@@ -24,7 +25,8 @@
 ```
 
 
-#### 监听的事件
+#### 监听事件
+
 - 成功：listening
 - 失败：error
 
@@ -38,7 +40,7 @@
   })
 ```
 
-获取http服务的网络信息:
+获取 http 服务的网络信息:
 ```js
  server.address(); // return { address: '0.0.0.0', family: 'IPv4', port: 59522 }
  server.address().address // 获取IP
@@ -54,12 +56,19 @@
 > 主要是 chokidar 库的使用，在服务断掉的时候关闭监听
 
 #### 基本参数
+
 ```js
   let watchPatch = options.watch || [root]; // 监听的目录 (默认:当前目录)
-  let ignorePath = options.ignore || ['node_modules']; // 忽略的目录（默认:node_modules）
+  let ignorePath = options.ignore || ['node_modules', '.git', '.gitignore', 'package.json']; // 忽略的目录（默认:'node_modules', '.git', '.gitignore', 'package.json'
   let entryFile = options.file; // 指定打开的目录
 ```
 
 - 给出具体的监听路径（比如 ./ 对应的是当前目录）
 - 忽略某些文件的监听（比如node_modules）
 - 在不指定的file的情况下默认列出所有的文件
+
+### 热刷新
+
+在浏览器和服务器之间创建WebSocket链接，服务器端在执行完动态编译之后发送reload事件至浏览器，浏览器接收到事件并刷新页面
+
+参考库：[livereload-js]()
